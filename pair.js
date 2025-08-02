@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*Labro MD [The Powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This Is The Your Session ID , Send This Code To Onwar*\n\n*You Can Ask Any Question Using This Number*\n\n*wa.me/message/94778080044*`;
+            const sid = `*Labro MD [The Powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This Is The Your Session ID , Send This Code To Onwar*\n\n*Onwar Number 94778080044*\n\n*You Can Ask Any Question Using This Number*\n\n*wa.me/message/94778080044*`;
             const mg = `*Do Not Share This Code To Anyone*`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
@@ -129,4 +129,5 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
