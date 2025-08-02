@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `*Do Not Share This Code To Anyone*`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://github.com/Theekshana-OFC/Pair-Web-Labro-MD/blob/main/Photos/WhatsApp%20Image%202025-08-02%20at%2016.21.29_7e3143f9.jpg?raw=true",
+                url: "",
               },
               caption: sid,
             });
@@ -129,5 +129,6 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
 
