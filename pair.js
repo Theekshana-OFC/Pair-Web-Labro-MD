@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const sid = `*Labro MD [The Powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This Is The Your Session ID , Send This Code To Onwar*\n\n*You Can Ask Any Question Using This Number*\n\n*wa.me/message/94778080044*`;
+            const mg = `*Do Not Share This Code To Anyone*`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://github.com/Theekshana-OFC/Pair-Web-Labro-MD/blob/main/Photos/WhatsApp%20Image%202025-08-02%20at%2016.21.29_7e3143f9.jpg?raw=true",
               },
               caption: sid,
             });
@@ -129,3 +129,4 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
